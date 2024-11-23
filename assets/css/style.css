@@ -1,22 +1,19 @@
-
 /*
 color palette
 Main Color #7e866f - - dark green
-Main highlight #979e8c - light green
-Secondary color - #814418 - dark brown
+Main highlight #C9D0BE - light green
+Secondary color - #764019 - dark brown
 secondary highlight #bc834e - orange
 third color - #cb9d83 - peach
-thirs highlight - #d6b9a7 - light peach
+third highlight - #d6b9a7 - light peach
 */
 
 /* CSS Variables */
 :root {
-   /* --primary-font: "Inter", sans-serif;
-    --secondary-font: "Macondo", cursive;*/
-    --primary-color: #7e866f; /*Dark Green*/
-    --secondary-color: #814418; /*Dark Brown*/
+    --primary-color:  #764019; /*Dark Brown*/
+    --secondary-color: #7e866f; /*Dark Green*/
     --tertiary-color: #cb9d83; /*peach*/
-    --highlight-color:  #979e8c; /*Lighter Green*/
+    --highlight-color:  #C9D0BE; /*Lighter Green*/
     --highlight-color-secondary: #bc834e; /*Orange*/
     --highlight-color-light: #d6b9a7; /*light Peach*/
     
@@ -24,6 +21,11 @@ thirs highlight - #d6b9a7 - light peach
 
 /* Global Styles */
 
-main {
-    color: blue
+#navbar {
+    background-color: var(--primary-color);
 }
+
+#navbar li *{
+    color: var(--highlight-color-light)
+}
+    
