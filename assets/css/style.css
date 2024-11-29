@@ -23,9 +23,33 @@ third highlight - #d6b9a7 - light peach
 
 #navbar {
     background-color: var(--primary-color);
+    margin-top: 0;
 }
 
-#navbar li *{
-    color: var(--highlight-color-light)
+.social-bar {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+    text-align: center;
+    /*padding: 1.5rem;*/
+    /*margin: -40px;*/
+  
+}
+
+.social-bar a {
+    text-decoration: none;
+    color: var(--highlight-color-light);
+    font-size: 1.3rem;
+    transition: color 0.3s ease-in-out;
+    opacity: .5;
+    filter: alpha(opacity=40);
+}
+
+.social-bar a :hover {
+    color: var(--highlight-color-secondary);
+    opacity: 1;
+    filter: alpha(opacity=100);
 }
     
