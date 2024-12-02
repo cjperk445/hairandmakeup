@@ -87,3 +87,28 @@ third highlight - #d6b9a7 - light peach
     color: var(--primary-color);
     font-family: var(--secondary-font);
 }
+
+.carousel-item {
+    max-height: 713px;
+    overflow: hidden;
+    background-image: center-center;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1;
+  }
+  footer {
+    min-height: 50px;
+    
+  }
+
+
+
+
