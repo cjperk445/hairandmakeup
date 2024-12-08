@@ -88,12 +88,25 @@ third highlight - #d6b9a7 - light peach
     font-family: var(--secondary-font);
 }
 
-.carousel-item {
-    max-height: 713px;
-    overflow: hidden;
-    background-image: center-center;
-}
+/* Code to make sure carousel images all fit in the carousel*/
 
+.carousel-inner {
+    height: 0;
+    padding-bottom: 50%; /* this sets carousel aspect ratio (2:1 here) */
+  }
+  
+  .carousel-item {
+    position: absolute !important; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .carousel-item img {
+    height: 100%; 
+    object-fit: cover; 
+  }
 
 
 body {
@@ -101,12 +114,13 @@ body {
     flex-direction: column;
   }
   
-  main {
+main {
     flex: 1;
   }
-  footer {
+
+footer {
     min-height: 50px;
-    
+        
   }
 
 /* gallery */
