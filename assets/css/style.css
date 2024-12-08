@@ -222,6 +222,14 @@ footer h6  {
 .bottom-bar a {
     font-size: 5.5rem;
 }
+
+main {
+    display: flex;
+}
+
+#awards {
+    order: 0;
+}
     
 /* Gallery */
 
