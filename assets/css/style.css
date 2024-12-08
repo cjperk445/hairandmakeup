@@ -28,6 +28,10 @@ third highlight - #d6b9a7 - light peach
 
 /* Global Styles */
 
+header {
+    text-align: center;
+}
+
 #navbar {
     background-color: var(--primary-color);
     margin-top: 0;
@@ -35,6 +39,9 @@ third highlight - #d6b9a7 - light peach
 
 .intro {
     font-family: var(--primary-font);
+    text-align: center;
+    margin: 2rem 0rem;
+    position: relative;
 }
 .social-bar {
     display:flex;
@@ -127,6 +134,18 @@ footer {
         
   }
 
+/* Testimonials */
+
+.testimonial {
+   border-style: dotted;
+   border-color: var(--primary-color);
+   padding: 20px;
+}
+
+.testimonial-credit {
+    text-align: center;
+}
+
 /* gallery */
 #mixed-portfolio img {
     width: 100%;
@@ -180,6 +199,11 @@ footer h6  {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
+/*Header*/
+.intro {
+padding: 0 25%;
+}
 
 /* Footer */
 
