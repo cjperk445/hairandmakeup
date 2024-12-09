@@ -37,6 +37,10 @@ header {
     margin-top: 0;
 }
 
+#navbar li {
+    text-align: center;
+}
+
 .intro {
     font-family: var(--primary-font);
     text-align: center;
