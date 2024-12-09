@@ -17,18 +17,33 @@ third highlight - #d6b9a7 - light peach
 :root {
     --primary-font: "Pridi", sans-serif;
     --secondary-font: "Niconne", cursive;
-    --primary-color:  #764019; /*Dark Brown*/
+    --primary-color: #764019; /*Dark Brown*/
     --secondary-color: #7e866f; /*Dark Green*/
     --tertiary-color: #cb9d83; /*peach*/
-    --highlight-color:  #C9D0BE; /*Lighter Green*/
+    --highlight-color: #C9D0BE; /*Lighter Green*/
     --highlight-color-secondary: #bc834e; /*Orange*/
     --highlight-color-light: #d6b9a7; /*light Peach*/
-    
+
 }
 
 /* Global Styles */
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
+
+main {
+    /* Enlarge main element to push footer down*/
+    flex-grow: 1;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
 
 header {
     text-align: center;
@@ -49,15 +64,16 @@ header {
     margin: 2rem 0rem;
     position: relative;
 }
+
 .social-bar {
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     text-decoration: none;
     text-align: center;
     padding: 0 20px;
-    
+
 }
 
 .social-bar a {
@@ -82,7 +98,7 @@ header {
 
 .bottom-bar {
     background-color: var(--secondary-color);
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     text-decoration: none;
     text-align: center;
@@ -95,7 +111,7 @@ header {
     transition: color 0.3s ease-in-out;
     opacity: .5;
     filter: alpha(opacity=40);
-    
+
 }
 
 #facts {
@@ -109,39 +125,24 @@ header {
 
 .carousel-inner {
     height: 0;
-    padding-bottom: 50%; /* this sets carousel aspect ratio (2:1 here) */
-  }
-  
-  .carousel-item {
-    position: absolute !important; 
+    padding-bottom: 50%;
+    /* this sets carousel aspect ratio (2:1 here) */
+}
+
+.carousel-item {
+    position: absolute !important;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-  }
-  
-  .carousel-item img {
-    height: 100%; 
-    object-fit: cover; 
-  }
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
 
 
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
- }
-
-  
-main {
-    /* Enlarge main element to push footer down*/
-    flex-grow: 1;
-    /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 47px;
-    /* Enable flex properties for child elements */
-    display: flex;
-    flex-direction: column;
-  }
 
 /*footer {
     min-height: 50px;
@@ -150,9 +151,9 @@ main {
 /* Testimonials */
 
 .testimonial {
-   border-style: dotted;
-   border-color: var(--primary-color);
-   padding: 20px;
+    border-style: dotted;
+    border-color: var(--primary-color);
+    padding: 20px;
 }
 
 .testimonial-credit {
@@ -170,7 +171,6 @@ main {
 }
 
 
-
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
@@ -182,28 +182,29 @@ main {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-.social-bar a {    
-    font-size: 3.5rem;
-}
-/* Footer */
+    .social-bar a {
+        font-size: 3.5rem;
+    }
 
-footer h4  {
-    font-size: 2.5rem;
-}
+    /* Footer */
 
-footer h5  {
-    font-size: 2.5rem;
-}
+    footer h4 {
+        font-size: 2.5rem;
+    }
 
-footer h6  {
-    font-size: 2.5rem;
-}
+    footer h5 {
+        font-size: 2.5rem;
+    }
 
-.bottom-bar a {
-    font-size: 5.5rem;
-}
-    
- #mixed-portfolio {
+    footer h6 {
+        font-size: 2.5rem;
+    }
+
+    .bottom-bar a {
+        font-size: 5.5rem;
+    }
+
+    #mixed-portfolio {
         column-count: 3;
         column-gap: 0;
     }
@@ -213,38 +214,35 @@ footer h6  {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-/*Header*/
-.intro {
-padding: 0 25%;
-}
+    /*Header*/
+    .intro {
+        padding: 0 25%;
+    }
 
-/* Footer */
+    /* Footer */
 
-footer h4  {
-    font-size: 2.5rem;
-}
+    footer h4 {
+        font-size: 2.5rem;
+    }
 
-footer h5  {
-    font-size: 2.5rem;
-}
+    footer h5 {
+        font-size: 2.5rem;
+    }
 
-footer h6  {
-    font-size: 2.5rem;
-}
+    footer h6 {
+        font-size: 2.5rem;
+    }
 
-.bottom-bar a {
-    font-size: 5.5rem;
-}
+    .bottom-bar a {
+        font-size: 5.5rem;
+    }
 
-main {
-    display: flex;
-}
+    main {
+        display: flex;
+    }
 
-#awards {
-    order: 0;
-}
     
-/* Gallery */
+    /* Gallery */
 
     #mixed-portfolio {
         column-count: 4;
@@ -253,5 +251,3 @@ main {
 
 
 }
-
-
