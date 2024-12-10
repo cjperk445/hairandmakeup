@@ -45,9 +45,9 @@ main {
     flex-direction: column;
 }
 
-header {
+/*header {
     text-align: center;
-}
+}*/
 
 #navbar {
     background-color: var(--primary-color);
@@ -175,8 +175,16 @@ header {
 
 }
 
-.btn-primary {
+.form-button {
     background-color: var(--primary-color);
+    border-color: var(--highlight-color-secondary);
+    color: var(--highlight-color-light)
+}
+
+.form-button:hover  {
+    background-color:var(--secondary-color);
+    border-color: var(--highlight-color);
+    color: var(--primary-color);
 }
 
 
@@ -198,19 +206,19 @@ header {
     /* Footer */
 
     footer h4 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     footer h5 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     footer h6 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     .bottom-bar a {
-        font-size: 5.5rem;
+        font-size: 3.5rem;
     }
 
     #mixed-portfolio {
@@ -230,25 +238,25 @@ header {
 
     /* Footer */
 
-    footer h4 {
-        font-size: 2.5rem;
+   /* footer h4 {
+        font-size: 1.5rem;
     }
 
     footer h5 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     footer h6 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     .bottom-bar a {
-        font-size: 5.5rem;
+        font-size: 3.5rem;
     }
 
     main {
         display: flex;
-    }
+    }*/
 
     
     /* Gallery */
