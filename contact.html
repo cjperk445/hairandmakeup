@@ -79,7 +79,46 @@
 
     <!-- main content -->
     <main class="container">
-        
+        <div id="contact-form" class="row justify-content-center">
+            <div class="col-12 text-center my-4">
+                <h2 class="display-5">Drop Me a line</h2>
+                <p class="mt-4">If you're in need of a consultation please don't hesitate to use the form below.</p>
+            </div>
+            <div class="col-12 col-md-10 col-lg-8 mb-4">
+                <!-- Add your form here -->
+                <form class="row g-3">
+                    <div class="col-lg-4">
+                        <label for="full-name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="full-name">
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="phonenumber" class="form-label">Phone number</label>
+                        <input type="number" class="form-control" id="phonenumber">
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="col-12 col-lg-6 form-group mz-2">
+                        <label for="form-selection">Example select</label>
+                        <select class="form-control" id="form-selection">
+                          <option>General Hair Styling</option>
+                          <option>Wedding Styling</option>
+                          <option>Makeup</option>
+                          <option>Job Opportunities</option>
+                          <option>Other (please specify)</option>
+                        </select>
+                      </div>
+                    <div class="col-12 col-lg-6">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </main>
 
 
