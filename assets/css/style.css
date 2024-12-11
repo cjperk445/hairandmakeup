@@ -203,9 +203,9 @@ main {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    .social-bar a {
+    /*.social-bar a {
         font-size: 3.5rem;
-    }
+    }*/
 
     /* Footer */
 
@@ -240,29 +240,42 @@ main {
         padding: 0 25%;
     }
 
-    /* Footer */
+.social-bar a {
+    font-size: 1.5rem;
+    padding-right: 10px;
+}
 
-   /* footer h4 {
-        font-size: 1.5rem;
-    }
+.img-hover img {
+    -webkit-transition: all .3s ease; /* Safari and Chrome */
+  	-moz-transition: all .3s ease; /* Firefox */
+  	-o-transition: all .3s ease; /* IE 9 */
+  	-ms-transition: all .3s ease; /* Opera */
+  	transition: all .3s ease;
+  	position:relative;
+}
+.img-hover img:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform:translateZ(0) scale(1.20); /* Safari and Chrome */
+    -moz-transform:scale(1.20); /* Firefox */
+    -ms-transform:scale(1.20); /* IE 9 */
+    -o-transform:translatZ(0) scale(1.20); /* Opera */
+    transform:translatZ(0) scale(1.20);
+    z-index: 1;
+}
+  
+.img-hover:hover:after {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+    width:30px;
+    height:30px;
+    border:1px solid #000;
+}
 
-    footer h5 {
-        font-size: 1.5rem;
-    }
-
-    footer h6 {
-        font-size: 1.5rem;
-    }
-
-    .bottom-bar a {
-        font-size: 3.5rem;
-    }
-
-    main {
-        display: flex;
-    }*/
-
-    
+   
     /* Gallery */
 
     #mixed-portfolio {
