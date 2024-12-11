@@ -167,6 +167,18 @@ main {
     line-height: 0;
 }
 
+#cv {
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+} 
+
+.work-exp {
+    font-family: var(--primary-font);
+    font-size: 1.3rem;
+    margin: auto;
+}
+
 
 #contact-form {
     background-color: rgba(203, 157, 131, 0.7);
