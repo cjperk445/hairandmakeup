@@ -58,6 +58,10 @@ main {
     text-align: center;
 }
 
+.nav-link :hover {
+    text-decoration: underline;
+}
+
 .intro {
     font-family: var(--primary-font);
     text-align: center;
