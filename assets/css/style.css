@@ -43,6 +43,7 @@ main {
 #navbar {
     background-color: var(--primary-color);
     margin-top: 0;
+    font-family: var(--primary-font);
 }
 
 #navbar li {
@@ -169,7 +170,7 @@ main {
 
 #contact-form {
     background-color: rgba(203, 157, 131, 0.7);
-    
+    font-family: var(--primary-font);
 }
 
 #hero-image {
