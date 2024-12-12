@@ -48,8 +48,16 @@ main {
 .nav-link :hover {
     text-decoration: underline;
 }
+.invisible {
+    visibility: hidden;
+    position: absolute; 
+}
 
-header {
+#portfolio-body {
+    background-color: rgba(203, 157, 131, 0.7);
+}
+
+#index-header {
   background-color: rgba(203, 157, 131, 0.7);
   margin-bottom: -25px;
   padding-top: 1rem;
@@ -140,6 +148,10 @@ header {
     object-fit: cover;
 }
 
+.navbar-brand {
+    font-family: var(--secondary-font);
+}
+
 /* Testimonials */
 
 .testimonial {
@@ -206,6 +218,23 @@ header {
     padding: 20px;
 }
 
+#awards{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px ;
+}
+
+#awards img {
+    max-width: 100px;
+    max-height: 70px;
+}
+
+#index-button {
+  padding: 50px 0;
+  font-family: var(--secondary-font);
+  font-size: 2rem;
+}
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
@@ -217,9 +246,10 @@ header {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /*.social-bar a {
-        font-size: 3.5rem;
-    }*/
+    #awards img {
+        max-width: 130px;
+        max-height: 100px;
+    }
 
     /* Footer */
 
