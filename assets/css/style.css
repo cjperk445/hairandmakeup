@@ -29,16 +29,11 @@ body {
 main {
     /* Enlarge main element to push footer down*/
     flex-grow: 1;
-    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
 }
-
-/*header {
-    text-align: center;
-}*/
 
 #navbar {
     background-color: var(--primary-color);
@@ -54,10 +49,16 @@ main {
     text-decoration: underline;
 }
 
+header {
+  background-color: rgba(203, 157, 131, 0.7);
+  margin-bottom: -25px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .intro {
     font-family: var(--primary-font);
     text-align: center;
-    margin: 2rem 0rem;
     position: relative;
 }
 
@@ -139,12 +140,6 @@ main {
     object-fit: cover;
 }
 
-
-
-/*footer {
-    min-height: 50px;
-}*/
-
 /* Testimonials */
 
 .testimonial {
@@ -179,7 +174,6 @@ main {
     margin: auto;
 }
 
-
 #contact-form {
     background-color: rgba(203, 157, 131, 0.7);
     font-family: var(--primary-font);
@@ -205,6 +199,12 @@ main {
     color: var(--primary-color);
 }
 
+
+#about {
+    font-family: var(--primary-font);
+    text-align:center;
+    padding: 20px;
+}
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
