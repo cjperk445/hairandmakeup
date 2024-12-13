@@ -14,23 +14,40 @@
 
 Created using [Balsamiq](https://balsamiq.com)
 
-When creating the wireframes I worked from the mobile size up, as most consumers view websites foremostly on mobile devices. All throughout the build I focused on the mobile view and then scaled up device sizes.
+I created the wireframes using Balsamiq, I wanted to focus on mobile devices and scale up to larger devices. However I sketched the laptop size initially.
 
-First Sketch of a phone or similar size device (put in screen size here):
+The first sketch for laptops and larger screens(≥992px)
+<div style="text-align: center">
+<img src="assets/images/readme/1_wireframe.png" width="33%" height="33%" alt="first sketch laptop size">
+</div>
 
-[balsamiq sketch phone]
+The second sketch which is the design i went for added an about me section at the top and squeezed the divs into a smaller space to make better use of the screen space
+<div style="text-align: center">
+<img src="assets/images/readme/2_wireframe.png" width="33%" height="33%" alt="second sketch laptop size">
+</div>
 
-I then scaled up the sketches for tablet/landscape phones 
+With this second sketch in mind I went on and sketched the website on a mobile device (<576px)
+<div style="text-align: center">
+<img src="assets/images/readme/4_wireframe.png" width="33%" height="33%" alt="mobile device sketch">
+</div>
 
-Sketch on tablet or similar size device (put screen size in here):
-[balsamiq sketch Tablet]
+Once I was happy I went on to sketch the portfolio page. Early on I'd decided to take inspiration from the love running project that the website would have a masonry wall approach and a seperate CV area at the bottom. The masonry wall would be responsive to the screen size as the sketch below illustrates, it would be utilising the CSS column-count property. 
+<div style="text-align: center">
+<img src="assets/images/readme/5_wireframe.png" width="33%" height="33%" alt="mobile device portfolio sketch">
+<img src="assets/images/readme/6_wireframe.png" width="50%" height="50%" alt="sketch of portfolio page different screen sizes" style="vertical-align:top">
+</div>
 
-Finally, I sketched a wireframe for laptop and larger devices
+Then the Contact Page: 
+<div style="text-align: center">
+<img src="assets/images/readme/7_wireframe.png" width="33%" height="33%" alt="mobile device contact sketch">
+<img src="assets/images/readme/8_wireframe.png" width="33%" height="33%" alt="laptop or larger contact page" style="vertical-align:top">
+</div>
 
-Sketch on laptop and large screens(screen size):
-[balsamiq sketch laptop]
 
-
+Whilst building and testing the site the social media links at the top of the page were not as aesthetically pleasing as I wanted so I moved the logos to sit next to the nav links in the navbar. 
+<div style="text-align: center">
+<img src="assets/images/readme/3_wireframe.png" width="50%" height="50%" alt="move social media logos">
+</div>
 
 ## About the build:
 
