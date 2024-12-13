@@ -133,6 +133,13 @@ main {
     padding-right: 20px;
 }
 
+#confirmation-message {
+    background-color: rgba(203, 157, 131, 0.7);
+    font-family: var(--primary-font);
+    text-align: center;
+    padding: 25%;
+}
+
 
 /* Code to make sure carousel images all fit in the carousel*/
 
