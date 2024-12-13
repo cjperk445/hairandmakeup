@@ -48,6 +48,8 @@ main {
 .nav-link :hover {
     text-decoration: underline;
 }
+
+/*used to hide headers but still have them on the page*/
 .invisible {
     visibility: hidden;
     position: absolute; 
@@ -153,6 +155,8 @@ main {
     object-fit: cover;
 }
 
+/*end of carousel item code*/
+
 .navbar-brand {
     font-family: var(--secondary-font);
 }
@@ -173,7 +177,8 @@ main {
     text-align: center;
 }
 
-/* gallery */
+/* Portfolio */
+
 #mixed-portfolio img {
     width: 100%;
     line-height: 1em;
@@ -306,6 +311,7 @@ main {
     padding-right: 10px;
 }
 
+/* This code was taken from Codeply to get the image to zoom in when the mouse hovered on it*/
 .img-hover img {
     -webkit-transition: all .3s ease; /* Safari and Chrome */
   	-moz-transition: all .3s ease; /* Firefox */
@@ -324,7 +330,6 @@ main {
     transform:translatZ(0) scale(1.20);
     z-index: 1;
 }
-  
 .img-hover:hover:after {
     content:"";
     position:absolute;
@@ -335,6 +340,7 @@ main {
     height:30px;
     border:1px solid #000;
 }
+/*end of codeply code*/
 
 #awards img {
     max-width: 250px;

@@ -66,6 +66,140 @@ added css stylesheet, including css variables for main color scheme.
 had to change colour scheme as there was not enough contrast with the primary and highlight colors used https://webaim.org/resources/contrastchecker/ to check. 
 made an error whilst creating favicon, had to remake it with better size of logo so it would show up better on the tab
 11/12/2024 decided to remove social bar from top of the screen and added to the navbar, made sure to center it on smaller screens, then spaced them out ans shrunk them on larger screen
-img hover from . https://www.codeply.com/go/JuADMG3eTG/bootstrap-image-hover-css-zoom-scale (added z-hover 9999 so the image hovered over will cover the other images)
+
+### Testing
+
+## Testing Index.html
+
+
+|           Action            |                                Expectation                                 | Outcome |
+| :-------------------------: | :------------------------------------------------------------------------: | :-----: |
+|           Header            |                          Adjusts with screen size                          |  Pass   |
+|        Click on logo        |                           Takes you to home page                           |  Pass   |
+|       Navigation bar        |                 Active page Highlighted, adjusts with size                 |  Pass   |
+|    Navigation bar - Home    |            Clicked from Index.html it Takes you to index.html              |  Pass   |
+|    Navigation bar - About   |Clicked from Index.html it Takes you to index.html and scrolls to #about    |  Pass   |
+| Navigation bar - Portfolio  |Clicked from Index.html it Takes you to portfolio.html                      |  Pass   |
+|    Navigation bar - CV      |Clicked from Index.html it Takes you to portfolio.html and scrolls to #cv   |  Pass   |
+|  Navigation bar - Instagram |Clicked from Index.html it opens instagram.com in new tab                   |  Pass   |
+|   Navigation bar - Facebook |Clicked from Index.html it opens facebook.com in new tab                    |  Pass   |
+|    Navigation bar - X       |Clicked from Index.html it opens twitter.com in new tab                     |  Pass   |
+|  Navigation bar - Pinterest |Clicked from Index.html it opens pinterest.com in new tab                   |  Pass   |
+| Nav bar links: on hover     | They change colour                                                         |  Pass   |
+| Nav bar Social links: on hover     | They change colour                                                  |  Pass   |
+| Carousel id #makeupCarousel |Both Carousel Buttons work to flip through pictures                         |  Pass   |
+| Carousel id #hair  Carousel |Both Carousel Buttons work to flip through pictures                         |  Pass   |
+| Drop me a line! Button      |when clicked takes you to contact.html                                      |  Pass   |
+| Drop me a line! Button on hover|Changes Colour                                                           |  Pass   |
+| Bottom bar Social links: on hover     | They change colour                                               |  Pass   |
+|  Bottom Bar - Instagram     |Clicked from Index.html it opens instagram.com in new tab                   |  Pass   |
+|   Bottom Bar - Facebook     |Clicked from Index.html it opens facebook.com in new tab                    |  Pass   |
+|   Bottom Bar - X            |Clicked from Index.html it opens twitter.com in new tab                     |  Pass   |
+|  Bottom Bar - Pinterest     |Clicked from Index.html it opens pinterest.com in new tab                   |  Pass   |
+
+## Testing Portfolio Page
+
+|           Action            |                                Expectation                                 | Outcome |
+| :-------------------------: | :------------------------------------------------------------------------: | :-----: |
+|           Header            |                          Adjusts with screen size                          |  Pass   |
+|        Click on logo        |                           Takes you to home page                           |  Pass   |
+|       Navigation bar        |                 Active page Highlighted, adjusts with size                 |  Pass   |
+|    Navigation bar - Home    |            Takes you to index.html                                         |  Pass   |
+|    Navigation bar - About   | Takes you to index.html and scrolls to #about                              |  Pass   |
+| Navigation bar - Portfolio  | Takes you to portfolio.html                                                |  Pass   |
+|    Navigation bar - CV      | it Takes you to portfolio.html and scrolls to #CV                          |  Pass   |
+|  Navigation bar - Instagram | it opens instagram.com in new tab                                          |  Pass   |
+|   Navigation bar - Facebook | it opens facebook.com in new tab                                           |  Pass   |
+|    Navigation bar - X       | it opens twitter.com in new tab                                            |  Pass   |
+|  Navigation bar - Pinterest |it opens pinterest.com in new tab                                           |  Pass   |
+| Nav bar links: on hover     | They change colour                                                         |  Pass   |
+| Nav bar Social links: on hover     | They change colour                                                  |  Pass   |
+| Images in portfolio         |Adjust with screen size, different # of columns dependant on screen size    |  Pass   |
+| Images in portfolio on hover|  They zoom out and change z-index to front of screen                       |  Pass   |
+| CV on Hover                 |Changes Colour                                                              |  Pass   |
+| Bottom bar Social links: on hover     | They change colour                                               |  Pass   |
+|  Bottom Bar - Instagram     |Clicked from Index.html it opens instagram.com in new tab                   |  Pass   |
+|   Bottom Bar - Facebook     |Clicked from Index.html it opens facebook.com in new tab                    |  Pass   |
+|   Bottom Bar - X            |Clicked from Index.html it opens twitter.com in new tab                     |  Pass   |
+|  Bottom Bar - Pinterest     |Clicked from Index.html it opens pinterest.com in new tab                   |  Pass   |
+
+## Testing Contact Page
+
+|           Action            |                                Expectation                                 | Outcome |
+| :-------------------------: | :------------------------------------------------------------------------: | :-----: |
+|           Header            |                          Adjusts with screen size                          |  Pass   |
+|        Click on logo        |                           Takes you to home page                           |  Pass   |
+|       Navigation bar        |                 Active page Highlighted, adjusts with size                 |  Pass   |
+|    Navigation bar - Home    |            Takes you to index.html                                         |  Pass   |
+|    Navigation bar - About   | Takes you to index.html and scrolls to #about                              |  Pass   |
+| Navigation bar - Portfolio  | Takes you to portfolio.html                                                |  Pass   |
+|    Navigation bar - CV      | it Takes you to portfolio.html and scrolls to #CV                          |  Pass   |
+|  Navigation bar - Instagram | it opens instagram.com in new tab                                          |  Pass   |
+|   Navigation bar - Facebook | it opens facebook.com in new tab                                           |  Pass   |
+|    Navigation bar - X       | it opens twitter.com in new tab                                            |  Pass   |
+|  Navigation bar - Pinterest |it opens pinterest.com in new tab                                           |  Pass   |
+| Nav bar links: on hover     | They change colour                                                         |  Pass   |
+| Nav bar Social links: on hover     | They change colour                                                  |  Pass   |
+| Images in portfolio         |Adjust with screen size, different # of columns dependant on screen size    |  Pass   |
+| Images in portfolio on hover|  They zoom out and change z-index to front of screen                       |  Pass   |
+| CV on Hover                 |Changes Colour                                                              |  Pass   |
+| Bottom bar Social links: on hover     | They change colour                                               |  Pass   |
+|  Bottom Bar - Instagram     |Clicked from Index.html it opens instagram.com in new tab                   |  Pass   |
+|   Bottom Bar - Facebook     |Clicked from Index.html it opens facebook.com in new tab                    |  Pass   |
+|   Bottom Bar - X            |Clicked from Index.html it opens twitter.com in new tab                     |  Pass   |
+|  Bottom Bar - Pinterest     |Clicked from Index.html it opens pinterest.com in new tab                   |  Pass   |
+
+
+
+
+
+
+
+
+
+
+
+### HTML Validator
+
+!!
+
+### CSS Validator
+
+!!
+
+## Deployment
+
+- The site was deployed to GitHub pages.
+
+- Steps of deployment:
+
+1. Open repository [Han Hair And Makeup](https://github.com/cjperk445/hairandmakeup).
+2. Go to settings.
+3. Locate the Pages link in the menu section on the left of the screen.
+4. Locate the Branch, click on none then and select main option.
+5. Click on the save button.
+6. After couple of minutes reload the page and you will have a live site at the top of the site.
+7. Click on the link and it will take you to a live site. 
+
+- Local deployment steps:
+
+1. Open my repository [Han Hair And Makeup](https://github.com/cjperk445/hairandmakeup).
+2. Locate and click on the green button with Code written on it.
+3. Copy the link from the menu
+4. Clone the code onto your machine and start working on the code.
+
+## Credits
+- The code used so the images in the portfolio hover comes from: [codeply] (https://www.codeply.com/go/JuADMG3eTG/bootstrap-image-hover-css-zoom-scale)I then added "z-hover 1" so the image hovered over will cover the other images by coming to the front.
+- The masonry wall effect code was learnt from the "Love running" module and used near verbatim.
+
+### Code
+
+
+### Media
+
+- All Hair and Makeup photos used on the site were taken (with permission) from [hanjones23's site](https://hanjones23.wixsite.com/portfolio)
+- The colour pallet and colour scheme were taken as an inspiration from [Pinterest](https://www.pinterest.com)
+- The Favicon image was created using [Bing Image Creator](https://www.bing.com/images/create) then turned into a favicon using [Favicon.io](https://favicon.io/)
+- The Award logos were either created by myself using [gimp](https://www.gimp.org/) or borrowed from [The Wedding industry Awards](https://www.the-wedding-industry-awards.co.uk/) and [The Welsh Hair and Beauty awards](https://www.facebook.com/WelshHairandBeautyAwards/)
 
 
