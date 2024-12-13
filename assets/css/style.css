@@ -281,7 +281,8 @@ main {
 
     /*Header*/
     .intro {
-        padding: 0 25%;
+        text-align: center;
+        padding: 50px 0;
     }
 
 .social-bar a {
