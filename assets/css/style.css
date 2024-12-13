@@ -57,7 +57,8 @@ main {
 
 #portfolio-body {
     background-color: rgba(203, 157, 131, 0.7);
-}
+    }
+
 
 #index-header {
   background-color: rgba(203, 157, 131, 0.7);
@@ -216,7 +217,7 @@ main {
 #hero-image {
     height: 400px;
     width: 100%;
-    background: url("../images/makeup/makeup_6.png") no-repeat center center/cover;
+    background: url("../images/makeup/makeup_6.webp") no-repeat center center/cover;
     z-index: -1;
     bottom:0;
 }

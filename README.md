@@ -140,9 +140,33 @@ made an error whilst creating favicon, had to remake it with better size of logo
 |  Navigation bar - Pinterest |it opens pinterest.com in new tab                                           |  Pass   |
 | Nav bar links: on hover     | They change colour                                                         |  Pass   |
 | Nav bar Social links: on hover     | They change colour                                                  |  Pass   |
-| Images in portfolio         |Adjust with screen size, different # of columns dependant on screen size    |  Pass   |
-| Images in portfolio on hover|  They zoom out and change z-index to front of screen                       |  Pass   |
-| CV on Hover                 |Changes Colour                                                              |  Pass   |
+| Form Elements               |All form elements must be filled in before it will allow the form to be submitted    |  Pass   |
+| Submit button               |Will open up confimation page                                               |  Pass   |
+| Submit button on hover      |Changes colour                                                              |  Pass   |
+| Bottom bar Social links: on hover     | They change colour                                               |  Pass   |
+|  Bottom Bar - Instagram     |Clicked from Index.html it opens instagram.com in new tab                   |  Pass   |
+|   Bottom Bar - Facebook     |Clicked from Index.html it opens facebook.com in new tab                    |  Pass   |
+|   Bottom Bar - X            |Clicked from Index.html it opens twitter.com in new tab                     |  Pass   |
+|  Bottom Bar - Pinterest     |Clicked from Index.html it opens pinterest.com in new tab                   |  Pass   |
+
+## Testing CoConfirmation Page
+
+|           Action            |                                Expectation                                 | Outcome |
+| :-------------------------: | :------------------------------------------------------------------------: | :-----: |
+|           Header            |                          Adjusts with screen size                          |  Pass   |
+|        Click on logo        |                           Takes you to home page                           |  Pass   |
+|       Navigation bar        |                 Active page Highlighted, adjusts with size                 |  Pass   |
+|    Navigation bar - Home    |            Takes you to index.html                                         |  Pass   |
+|    Navigation bar - Home    |            Takes you to index.html                                         |  Pass   |
+|    Navigation bar - About   | Takes you to index.html and scrolls to #about                              |  Pass   |
+| Navigation bar - Portfolio  | Takes you to portfolio.html                                                |  Pass   |
+|    Navigation bar - CV      | it Takes you to portfolio.html and scrolls to #CV                          |  Pass   |
+|  Navigation bar - Instagram | it opens instagram.com in new tab                                          |  Pass   |
+|   Navigation bar - Facebook | it opens facebook.com in new tab                                           |  Pass   |
+|    Navigation bar - X       | it opens twitter.com in new tab                                            |  Pass   |
+|  Navigation bar - Pinterest |it opens pinterest.com in new tab                                           |  Pass   |
+| Nav bar links: on hover     | They change colour                                                         |  Pass   |
+| Nav bar Social links: on hover     | They change colour                                                  |  Pass   |
 | Bottom bar Social links: on hover     | They change colour                                               |  Pass   |
 |  Bottom Bar - Instagram     |Clicked from Index.html it opens instagram.com in new tab                   |  Pass   |
 |   Bottom Bar - Facebook     |Clicked from Index.html it opens facebook.com in new tab                    |  Pass   |
