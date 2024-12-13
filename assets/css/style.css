@@ -127,6 +127,11 @@ main {
     font-family: var(--secondary-font);
 }
 
+#facts i {
+    padding-right: 20px;
+}
+
+
 /* Code to make sure carousel images all fit in the carousel*/
 
 .carousel-inner {
@@ -153,6 +158,10 @@ main {
 }
 
 /* Testimonials */
+
+#testimonial-box {
+    background-color: rgba(203, 157, 131, 0.7);
+}
 
 .testimonial {
     border-style: dotted;
@@ -234,6 +243,7 @@ main {
   font-family: var(--secondary-font);
   font-size: 2rem;
 }
+
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
@@ -328,5 +338,13 @@ main {
         column-gap: 0;
     }
 
+.contact-button {
+    font-size: 2rem;
+}
+
+#facts h5 {
+    text-align: left;
+    padding-left: 50%;
+}
 
 }
