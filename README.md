@@ -2,21 +2,29 @@
 
 ## Introduction
 
-- Hannah Mary Hair and Makeup is a simple website to showcase a hairdresser + Make up arists portfolio and for any would-be customers to contact said hairdresser.
+### What is this Project?
 
-- This website is targeted towards people local to the hairdresser to show off Hannah Mary's work.
+Welcome to my first project project milestone for of Code Institute's Full Stack Web Application Development Programme. This website is a simple website for a Hair and Make up Stylist to show her portfolio to the world.
 
-- Han Hair and make up will include the following: An introduction and details about Hannah Mary and her work, a portfolio of Make-up and hairstyles, a simple CV with some information on past work, contact information to get in touch and book a consultation.
+<div style="text-align: center">
+<img src="assets/images/readme/ipadmockup.webp" width="33%" height="33%" alt="mobile device contact sketch">
+<img src="assets/images/readme/nesthubmockup.webp" width="33%" height="33%" alt="laptop or larger contact page" style="vertical-align:top">
+</div>
 
-![Am I Responsive] - an image of the responsiveness of the website
+
+
+### Project goals
+
+1. To create a website which is responsive and dynamic that looks good across different device sizes
+2. To utilise and show my skills in using HTML, CSS whilst also using bootstrap for it's easily editable code.
+3. Make the website simple to use and intuitive for the user.
+
 
 ## Features
 
--   Aimed to be Responsive on all device sizes
-
--   Form Element
-
-- Interactive Elements
+-   Easily navigatable UI, The navbar and footer are the same across all pages to create a uniformity
+-   A Contact form for prospective clients to contact Han
+-   A gallery of images
 
 ## Technologies Used
 
@@ -82,25 +90,12 @@ Whilst building and testing the site the social media links at the top of the pa
 <img src="assets/images/readme/3_wireframe.png" width="50%" height="50%" alt="move social media logos">
 </div>
 
-## About the build:
-
-### index.html
-I started the project and created all of the required pages: index.html, contact.html, portfolio.html,<br>
-
-I created the assets and images folder, further on I would seperate the images folder into sub-sections as there were numerous styles of work on offer, these further sub-folders were labelled Hair, Makeup, Awards and Readme. This will hopefully make it easy to navigate to specific images within the folder tree.
-
-### contact.html
-
-### portfolio.html
-
-
-added basic structure of main page, used bootstrap nav bar, will edit for own function later. 
-added css stylesheet, including css variables for main color scheme. 
-had to change colour scheme as there was not enough contrast with the primary and highlight colors used https://webaim.org/resources/contrastchecker/ to check. 
-made an error whilst creating favicon, had to remake it with better size of logo so it would show up better on the tab
-
 
 ### Testing
+
+## Manual testing
+
+I went through each page and clicked on every link and ensured all features did what they were meant to do. 
 
 ## Testing Index.html
 
@@ -205,15 +200,6 @@ made an error whilst creating favicon, had to remake it with better size of logo
 |   Bottom Bar - Facebook     |Clicked from Index.html it opens facebook.com in new tab                    |  Pass   |
 |   Bottom Bar - X            |Clicked from Index.html it opens twitter.com in new tab                     |  Pass   |
 |  Bottom Bar - Pinterest     |Clicked from Index.html it opens pinterest.com in new tab                   |  Pass   |
-
-
-
-
-
-
-
-
-
 
 
 ### HTML Validator
