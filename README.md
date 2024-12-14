@@ -16,7 +16,7 @@
 
 -   Form Element
 
-- Interctive Elements
+- Interactive Elements
 
 ## Technologies Used
 
@@ -39,6 +39,8 @@
     - Balsamiq was used to create the wireframes.
 1. [Gimp](https://www.gimp.org/)
     - Gimp is a free to use alternative to Photoshop and was used to edit some images.
+1. [WebAim](https://webaim.org/resources/contrastchecker/)
+    - Used to check that the colour scheme had sufficient contrast, the original colour chosen did not and had to be altered to get enough contrast.
 
 
 ## Wireframes
@@ -96,7 +98,7 @@ added basic structure of main page, used bootstrap nav bar, will edit for own fu
 added css stylesheet, including css variables for main color scheme. 
 had to change colour scheme as there was not enough contrast with the primary and highlight colors used https://webaim.org/resources/contrastchecker/ to check. 
 made an error whilst creating favicon, had to remake it with better size of logo so it would show up better on the tab
-11/12/2024 decided to remove social bar from top of the screen and added to the navbar, made sure to center it on smaller screens, then spaced them out ans shrunk them on larger screen
+
 
 ### Testing
 
@@ -216,11 +218,12 @@ made an error whilst creating favicon, had to remake it with better size of logo
 
 ### HTML Validator
 
-!!
+The HTML Validator used throughout was the [W3C](https://validator.w3.org/) Validator. Final checks on all pages flag up no errors nor warnings
 
 ### CSS Validator
 
-!!
+The CSS Validator used throughout was the [W3C](jigsaw.w3.org/css-validator/) Validator. Final checks on the CSS brought up one warning I was not able to tackle but did not pose a problem to the website. 
+- `CSS Line 338 translatZ(0) is not a transform value`
 
 ## Deployment
 
@@ -244,10 +247,10 @@ made an error whilst creating favicon, had to remake it with better size of logo
 4. Clone the code onto your machine and start working on the code.
 
 ## Credits
-- The code used so the images in the portfolio hover comes from: [codeply] (https://www.codeply.com/go/JuADMG3eTG/bootstrap-image-hover-css-zoom-scale)I then added "z-hover 1" so the image hovered over will cover the other images by coming to the front.
-- The masonry wall effect code was learnt from the "Love running" module and used near verbatim.
 
 ### Code
+- The code used so the images in the portfolio hover comes from: [codeply] (https://www.codeply.com/go/JuADMG3eTG/bootstrap-image-hover-css-zoom-scale)I then added "z-hover 1" so the image hovered over will cover the other images by coming to the front.
+- The masonry wall effect code was learnt from the "Love running" module and used near verbatim.
 
 
 ### Media
