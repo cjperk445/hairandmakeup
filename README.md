@@ -237,6 +237,7 @@ The CSS Validator used throughout was the [W3C](jigsaw.w3.org/css-validator/) Va
 ### Code
 - The code used so the images in the portfolio hover comes from: [codeply] (https://www.codeply.com/go/JuADMG3eTG/bootstrap-image-hover-css-zoom-scale)I then added "z-hover 1" so the image hovered over will cover the other images by coming to the front.
 - The masonry wall effect code was learnt from the "Love running" module and used near verbatim.
+- Whilst working on the carousel items, I came across an issue where the images were too large, I wanted a uniform look ot them all on the carousel, I spent some time googling and chatting in slack and found [this](https://stackoverflow.com/questions/73561420/how-to-make-images-the-same-height-in-a-bootstrap-5-carousel) solution which I utilised. I tweaked the code soemwhat as it wasn't exactly what I needed, changed the ratio from 4:1 to 2:1. 
 
 
 ### Media

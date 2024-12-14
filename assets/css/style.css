@@ -27,7 +27,7 @@ body {
 
 
 main {
-    /* Enlarge main element to push footer down*/
+    /* Enlarge main element to push footer down learnt this from one of the modules in Code Institute*/
     flex-grow: 1;
     margin-top: 47px;
     /* Enable flex properties for child elements */
@@ -142,7 +142,7 @@ main {
 }
 
 
-/* Code to make sure carousel images all fit in the carousel*/
+/* Code to make sure carousel images all fit in the carousel - solution found on stackoverflow please see readme*/
 
 .carousel-inner {
     height: 0;
