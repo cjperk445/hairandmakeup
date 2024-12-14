@@ -10,6 +10,37 @@
 
 ![Am I Responsive] - an image of the responsiveness of the website
 
+## Features
+
+-   Aimed to be Responsive on all device sizes
+
+-   Form Element
+
+- Interctive Elements
+
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+1. [Bootstrap 5.3.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness of the website as well as using their column and row properties.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the "Pridi" and "Niconne" fonts into the style.css file which were used across the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for such things as social media links. 
+1. [GitHub:](https://github.com/)
+    - I used Github to host my code and to deploy on github pages (explained in more detail later).
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes.
+1. [Gimp](https://www.gimp.org/)
+    - Gimp is a free to use alternative to Photoshop and was used to edit some images.
+
+
 ## Wireframes
 
 Created using [Balsamiq](https://balsamiq.com)
@@ -21,7 +52,7 @@ The first sketch for laptops and larger screens(≥992px)
 <img src="assets/images/readme/1_wireframe.png" width="33%" height="33%" alt="first sketch laptop size">
 </div>
 
-The second sketch which is the design i went for added an about me section at the top and squeezed the divs into a smaller space to make better use of the screen space
+The second sketch which is the design I went for added an about me section at the top and squeezed the divs into a smaller space to make better use of the screen space
 <div style="text-align: center">
 <img src="assets/images/readme/2_wireframe.png" width="33%" height="33%" alt="second sketch laptop size">
 </div>
@@ -149,7 +180,7 @@ made an error whilst creating favicon, had to remake it with better size of logo
 |   Bottom Bar - X            |Clicked from Index.html it opens twitter.com in new tab                     |  Pass   |
 |  Bottom Bar - Pinterest     |Clicked from Index.html it opens pinterest.com in new tab                   |  Pass   |
 
-## Testing CoConfirmation Page
+## Testing Confirmation Page
 
 |           Action            |                                Expectation                                 | Outcome |
 | :-------------------------: | :------------------------------------------------------------------------: | :-----: |
